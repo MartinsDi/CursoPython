@@ -7,6 +7,7 @@ pessoa_completa = {**pessoa, **dados_pessoa, 'sexo': 'f'}
 
 def mostra_argumento_nomeado(*args, **kwargs):
     print('Não nomeado', args)
+    print('*')
     for chave, valor in kwargs.items():
         print(chave, valor)
 
